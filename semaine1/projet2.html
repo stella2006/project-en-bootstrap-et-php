@@ -1,0 +1,379 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/fonts/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="navbar  fixed-top text-white" style="background-color: blue;">
+                <div class="col-2 ">
+                    <img src="C.png" alt="">
+                    <span class="text-white">Envol</span>
+
+                </div>
+                <div class="col-1">
+                    <span class="fa fa-list" id="li"></span>
+
+                </div>
+                <div class="col-9  d-flex justify-content-end">
+                    <span class="fa fa-user me-3 "></span>
+                    <span class="fa fa-bell  "></span>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-2 bg-dark vh-100" id="side" >
+                <div class="class flex-colum mt-5 ">
+                    <img src="logo.jpg" alt="" class="rounded-circle my-3" width="75" height="75">
+                </div>
+                <div class="row px-1 mb-2 rounded-0 border-0">
+                    <label for="accueil" style="background-color: rgba(66, 85, 93, 0.185);">
+                        <i class="fa fa-clock text-white st"></i>
+                        <a href="accueil.html" class="text-decoration-none text-white ms-3 si">Accueil</a>
+                    </label>
+
+                </div>
+
+                <div class="row px-1 rounded mb-2">
+                    <a href="travaux.html " class="btn text-white w-100 collapsed" data-toggle="collapse" data-target=".n" id="h"
+                        style="background-color: rgba(66, 85, 93, 0.185);">
+                        <div class="row">
+                            <div class="col-2">
+                                <span class="fa fa-user st"></span>
+                            </div>
+                            <div class="col-8  d-flex justify-content-start "><span class="si">Personnel</span></div>
+                            <div class="col-1"><span class=" fa fa-chevron-right si" id="ch"></span></div>
+                           
+
+                            
+                        </div>
+                    </a>
+                    <div class="n collapse" data-parent="#side">
+                        <div class="text-white hid row"  style="background-color: rgba(66, 85, 93, 0.185);">
+                            <div class="col-1">
+                                <span class="fa fa-plus mt-1 st"></span>
+                                <span class="fa fa-plus mt-2 st"></span>
+                                <span class="fa fa-plus mt-2 st"></span>
+                            </div>
+                            <div class="col-9">
+                                <span class="clas py-1 si">Ajouter Prestataire</span>
+                               <a href="p3.html" class="text-decoration-none text-white"> <span class="clas si"> Liste du personnel</span></a>
+                                <span class="clas si">Envoyer des Mails</span>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+               
+                
+                <div class="row px-1 rounded mb-2">
+                    <a href="travaux.html " class="btn text-white w-100 collapsed" data-toggle="collapse" data-target=".list" id="hi"
+                        style="background-color: rgba(66, 85, 93, 0.185);">
+                        <div class="row">
+                            <div class="col-2">
+                                <span class="fa fa-hourglass st"></span>
+                            </div>
+                            <div class="col-8  d-flex justify-content-start"><span class="si" >Prestataire</span></div>
+                            <div class="col-1"><span class=" fa fa-chevron-right  si" id="che"></span></div>
+                        </div>
+                    </a>
+
+                </div>
+                <hr class="bg-white">
+                <div class="list collapse" data-parent="#side">
+                     <div class="row text-white hidden" style="background-color: rgba(66, 85, 93, 0.185);">
+                    <div class="col-1">
+                        <span class="fa fa-plus mt-1 st"></span>
+                        <span class="fa fa-plus mt-2 st"></span>
+                        <span class="fa fa-plus mt-2 st"></span>
+                    </div>
+                    <div class="col-9">
+                        <span class="clas py-1 si">Ajouter Prestataire</span>
+                        <span class="clas si">Liste Prestataire</span>
+                        <span class="clas si">Envoyer des Mails</span>
+                    </div>
+                     </div>
+                     <div class="row text-white hidden" style="background-color: rgba(66, 85, 93, 0.185);">
+                    <div class="col-1">
+                        <span class="fa fa-envelope mt-1 st"></span>
+                        <span class="fa fa-user mt-2 st"></span>
+                        <span class="fa fa-message mt-2 st"></span>
+                    </div>
+                    <div class="col-9">
+                        <span class="clas py-1 si">Ajouter Contact</span>
+                        <span class="clas si">Lister Contact</span>
+                        <span class="clas si">Envoyer des SMS</span>
+                    </div>
+                     </div>
+                </div>
+                
+                <div class="row px-1 rounded py-2">
+                    <a href="travaux.html " class="btn text-white w-100 collapsed" data-toggle="collapse" data-target=".m"
+                        style="background-color: rgba(66, 85, 93, 0.185);">
+                        <div class="row">
+                            <div class="col-2">
+                                <span class="fa fa-hourglass st"></span>
+                            </div>
+                            <div class="col-8  d-flex justify-content-start"><span class="si">Travaux</span></div>
+                            <div class="col-1"><span class=" fa fa-chevron-right si" id="he"></span></div>
+                        </div>
+                    </a>
+                    <div class="m collapse">
+                            <div class=" text-white hidden row" style="background-color: rgba(66, 85, 93, 0.185);">
+                                <div class="col-1">
+                                    <span class="fa fa-plus mt-1 st"></span>
+                                    <span class="fa fa-plus mt-2 st"></span>
+                                    <span class="fa fa-plus mt-2 st"></span>
+                                </div>
+                                <div class="col-9">
+                                   <span class="clas py-1 si">Ajouter Prestataire</span>
+                                   <span class="clas si">Liste Prestataire</span>
+                                   <span class="clas si">Envoyer des Mails</span>
+                                </div>
+                            </div>
+
+
+                    
+                     </div>
+
+                </div>
+                <div class="row px-1 rounded mb-2">
+                    <a href="travaux.html " class="btn text-white w-100"
+                        style="background-color: rgba(66, 85, 93, 0.185);">
+                        <div class="row">
+                            <div class="col-2">
+                                <span class="fa fa-bold st"></span>
+                            </div>
+                            <div class="col-8  justify-content-start"><span class="text-nowrap si">Operation
+                                    Bancaire</span></div>
+                            <div class="col-1"><span class=" fa fa-chevron-right si"></span></div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="row px-1 rounded mb-2">
+                    <a href="travaux.html " class="btn text-white w-100"
+                        style="background-color: rgba(66, 85, 93, 0.185);">
+                        <div class="row">
+                            <div class="col-2">
+                                <span class="fa fa-thumb-tack st"></span>
+                            </div>
+                            <div class="col-8  d-flex justify-content-start"><span class="si">Prestation</span></div>
+                            <div class="col-1"><span class=" fa fa-chevron-right si"></span></div>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="row px-1 rounded mb-2">
+                    <a href="travaux.html " class="btn text-white w-100"
+                        style="background-color: rgba(66, 85, 93, 0.185);">
+                        <div class="row">
+                            <div class="col-2">
+                                <span class="fa fa-arrow-down-up st"></span>
+                            </div>
+                            <div class="col-8  d-flex justify-content-start"><span class="si">Comptabilites</span></div>
+                            <div class="col-1"><span class=" fa fa-chevron-right si"></span></div>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="row px-1 rounded mb-5">
+
+                    <label for="accueil" style="background-color: rgba(66, 85, 93, 0.185);">
+                        <i class="fa fa-clock text-white st"></i>
+                        <a href="accueil.html" class="text-decoration-none text-white ms-3 si">Document</a>
+                    </label>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+
+            <div class="col-10 bg-light" id="col">
+                <div class="row mt-1">
+                    <div class="col-6 mt-5">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="clas card border-0 shadow">
+                                    <p class="d-flex justify-content-center py-3" style="background-color: #f8f1e9;">
+                                        <span class="fa fa-chess-knight fa-4x text-primary"></span>
+                                    </p>
+                                    <div class="card-body p-0 m-0 d-flex justify-content-between align-items-center">
+                                        <p class="card-text ">Utilisateur</p>
+                                        <p class="card-text mb-3 px-2 border rounded-pill text-white bg-primary">36</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="clas card border-0 shadow">
+                                    <p class="d-flex justify-content-center py-3" style="background-color: aliceblue;">
+                                        <span class="fa fa-link fa-4x text-primary"></span>
+                                    </p>
+                                    <div class="card-body p-0 m-0 d-flex justify-content-between align-items-center">
+                                        <p class="card-text ">Prestation</p>
+                                        <p class="card-text mb-3 px-2 border rounded-pill text-white bg-primary">11</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-6 mt-5">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="clas card border-0 shadow">
+                                    <p class="d-flex justify-content-center py-3" style="background-color:  #f8f1e9;">
+                                        <span class="fa fa-print fa-4x text-primary"></span>
+                                    </p>
+                                    <div class="card-body p-0 m-0 d-flex justify-content-between align-items-center">
+                                        <p class="card-text ">Visiteur</p>
+                                        <p class="card-text mb-3 px-2 border rounded-pill text-white bg-primary">141</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="clas card border-0 shadow">
+                                    <p class="d-flex justify-content-center py-3" style="background-color: aliceblue;">
+                                        <span class="fa fa-link fa-4x text-primary"></span>
+                                    </p>
+                                    <div class="card-body p-0 m-0 d-flex justify-content-between align-items-center">
+                                        <p class="card-text ">Voyages</p>
+                                        <p class="card-text mb-3 px-2 border rounded-pill text-white bg-primary">8</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row ">
+                    <div class="col-6 mt-2">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="clas card border-0 shadow">
+                                    <p class="d-flex justify-content-center py-3" style="background-color:  #f8f1e9;">
+                                        <span class="fa fa-lock fa-4x text-primary"></span>
+                                    </p>
+                                    <div class="card-body p-0 m-0 d-flex justify-content-between align-items-center">
+                                        <p class="card-text ">Formation</p>
+                                        <p class="card-text mb-3 px-2 border rounded-pill text-white bg-primary">23</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="clas card border-0 shadow">
+                                    <p class="d-flex justify-content-center py-3" style="background-color: aliceblue;">
+                                        <span class="fa fa-th-large fa-4x text-primary"></span>
+                                    </p>
+                                    <div class="card-body p-0 m-0 d-flex justify-content-between align-items-center">
+                                        <p class="card-text ">Etudiants</p>
+                                        <p class="card-text mb-3 px-2 border rounded-pill text-white bg-primary">19</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-6 mt-2">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="clas card border-0 shadow">
+                                    <p class="d-flex justify-content-center py-3" style="background-color:  #f8f1e9;">
+                                        <span class="fa fa-glass-martini fa-4x text-primary"></span>
+                                    </p>
+                                    <div class="card-body p-0 m-0 d-flex justify-content-between align-items-center">
+                                        <p class="card-text ">Stagiaires</p>
+                                        <p class="card-text mb-3 px-2 border rounded-pill text-white bg-primary">31</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="clas card border-0 shadow">
+                                    <p class="d-flex justify-content-center py-3" style="background-color: aliceblue;">
+                                        <span class="fa fa-asterisk fa-4x text-primary"></span>
+                                    </p>
+                                    <div class="card-body p-0 m-0 d-flex justify-content-between align-items-center">
+                                        <p class="card-text ">Clients</p>
+                                        <p class="card-text mb-3 px-2 border rounded-pill text-white bg-primary">11</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+               <div>
+                    <div class="row fixed-bottom justify-content-start">
+                    <div class="">
+                          <div class="col-md-12 d-flex justify-content-end mb-4">
+                              <button class="btn btn-success rounded-circle me-3" type="submit" data-toggle="modal" data-target="#toast" >
+                                 <span class="fa fa-comment text-white"></span>
+        
+                               </button>
+        
+                           </div>
+                    </div>
+                  </div>
+                    <div class="modal " id="toast">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header" style="background-color: blue;">
+                                    <button class="btn btn-close"></button>
+
+                                </div>
+                                <div class="modal-body bg-light text-dark">
+                                    <textarea name="" id="" cols="100%" rows="4" placeholder="envoyer un message" class="form-control"></textarea>
+
+                                </div>
+                                <div class="modal-footer " style="background-color: blue;">
+                                    <a href=""><button class=" btn  bg-transparent  btn-submit text-white" type="submit" >Envoyer</button></a>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                      
+        
+                </div>
+
+            </div>
+        </div>
+
+        
+
+
+
+
+    </div>
+    <script src="vendor/jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+    <script src="vendor/js/bootstrap.min.js"></script>
+       
+    
+    <script src="tg.js"></script>
+    
+
+
+</body>
+
+</html>

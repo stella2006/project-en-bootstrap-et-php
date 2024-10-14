@@ -1,0 +1,28 @@
+.bouton {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: right;
+}
+
+#couleurfond,
+select {
+    background-color: #051f43;
+    color: aliceblue;
+}
+
+.sab {
+    background-color: red;
+}
+
+#sp {
+    left: 5px;
+}
+
+#couleur {
+    background-color: #051f43;
+
+}
+
+couleurs {
+    color: #051f43;
+}
